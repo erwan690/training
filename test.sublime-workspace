@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"R",
+				"Route::get\tBasic Get Route."
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 331.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gihu",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"githu",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ad",
+				"Git: Add Current File"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/akse/html/laravel_geekfarm/app/Article.php",
+		"/home/akse/html/laravel_geekfarm/composer.json",
+		"/home/akse/html/laravel_geekfarm/database/migrations/2017_08_01_063336_add_author_to_articles.php",
+		"/home/akse/html/laravel_geekfarm/database/migrations/2017_08_01_063625_rename_author_in_articles.php",
+		"/home/akse/html/laravel_geekfarm/.env",
+		"/home/akse/html/laravel_geekfarm/server.php",
+		"/home/akse/html/laravel_geekfarm/app/Providers/AppServiceProvider.php",
+		"/home/akse/html/training/bootstrap.html",
+		"/home/akse/saya.txt",
+		"/home/akse/tor-browser_en-US/Browser/start-tor-browser.desktop",
+		"/usr/share/applications/mantra.desktop",
+		"/home/akse/tor-browser_en-US/start-tor-browser.desktop",
+		"/home/akse/wpaw.py",
+		"/home/akse/mantra/OWASP Mantra",
+		"/home/akse/pspp.jnl",
+		"/etc/apt/sources.list",
+		"/home/akse/html/latihan/server.php",
+		"/home/akse/Downloads/saya.txt",
+		"/home/akse/.ssh/id_rsa.pub",
+		"/home/akse/html/latihan/.git/description",
+		"/home/akse/html/latihan/.git/config",
+		"/home/akse/html/latihan/.git/HEAD",
+		"/home/akse/html/latihan/.git/COMMIT_EDITMSG",
+		"/home/akse/Documents/kurikulum.txt",
+		"/home/akse/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/akse/Documents/latihan.sublime-project",
+		"/home/akse/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/akse/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/akse/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings",
+		"/home/akse/.config/sublime-text-3/Packages/TerminalView/README.md",
+		"/home/akse/html/latihan/routes/web.php",
+		"/home/akse/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/akse/html/latihan/app/Http/Controllers/Controller.php",
+		"/home/akse/.config/sublime-text-3/Packages/User/phpcs.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 88.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "test.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"appserviceprovider.php",
+				"app/Providers/AppServiceProvider.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
