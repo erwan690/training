@@ -1,4 +1,5 @@
 <html>
+     <link href="../css/bootstrap.min.css" rel="stylesheet">
 <body>
 <p>Sorting Array <br><br></p>
 
@@ -7,7 +8,7 @@
 <pre>
    
 <?php for ($i=0; $i < 10; $i++) { ?>
-   Angka ke <?php echo $i+1 ?> = <input type="text" pattern="[0-9]{4}" name="angka[<?php $i ?>]"><br>
+   Angka ke <?php echo $i+1 ?> = <input type="text"  maxlength="4" pattern="\d*" name="angka[<?php $i ?>]"><br>
 
 <?php } ?>
 <input type="submit" name="sorting" value="sorting">
@@ -16,15 +17,19 @@ $phi=22/7;
 if (!empty($_POST['angka'])) {
     $r=$_REQUEST['angka'];
     rsort($r);
+    $errors = array_filter($r);
 
     $total = count($r);
+    
 }
+if(!empty($errors)){
 extract($_POST);
 if (isset ($sorting)) {
     for ($i=0; $i < $total; $i++) {
         $no = $i+1;
-        echo "Setelah Di Sort ke $no adalah $r[$i]<br>";
+        echo "Setelah Di Sort Angka ke $no adalah $r[$i]<br>";
     }
+}
 }
 ?>
 </pre>
