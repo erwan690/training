@@ -1,13 +1,11 @@
 <?php
-if (!empty($_POST['jari']))
-{
-	$jarina = $_POST["jari"];
-	$luas = 3.14 * $jarina * $jarina;
-	$kel = 2*(3.14*$jarina);
-	echo "<center><strong><U> Dengan Jari-jari : $jarina </u><br> maka:</strong><br>";
-	echo " Keliling : $kel <br>";
-	echo "Luas linkaran : $luas <br></center>";
-	
+if (!empty($_POST['jari'])) {
+    $jarina = $_POST["jari"];
+    $luas = 3.14 * $jarina * $jarina;
+    $kel = 2*(3.14*$jarina);
+    echo "<center><strong><U> Dengan Jari-jari : $jarina </u><br> maka:</strong><br>";
+    echo " Keliling : $kel <br>";
+    echo "Luas linkaran : $luas <br></center>";
 }
 ?>
 <html>

@@ -5,10 +5,10 @@ require_once "Animal.php";
 /**
 *
 */
-class Dog extends Animal
+class Cat extends Animal
 {
     public function greet()
     {
-        return "Hello,I'm a dog and my name is ".$this->name;
+        return "Hello,I'm a cat and my name is ".$this->name;
     }
 }
