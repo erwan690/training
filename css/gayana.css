@@ -1,6 +1,7 @@
-.container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+div.container {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center }
+div.container p {
+  margin: 0 }
