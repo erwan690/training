@@ -16,20 +16,30 @@
 $phi=22/7;
 if (!empty($_POST['angka'])) {
     $r=$_REQUEST['angka'];
-    rsort($r);
-    $errors = array_filter($r);
-
-    $total = count($r);
-    
+    $sudah=sortingnumber($r);
 }
-if(!empty($errors)){
-extract($_POST);
-if (isset ($sorting)) {
+if (isset ($sudah)) {
+    $total = count($sudah);
     for ($i=0; $i < $total; $i++) {
         $no = $i+1;
-        echo "Setelah Di Sort Angka ke $no adalah $r[$i]<br>";
+        echo "Setelah Di Sort Angka ke $no adalah $sudah[$i]<br>";
     }
 }
+
+
+function sortingnumber($data)
+{
+     $total = count($data);
+    for ($i=0; $i < $total; $i++) {
+        for ($x=$i; $x < $total; $x++) {
+            if ($data[$i]< $data[$x]) {
+                $temp=$data[$i];
+                $data[$i]=$data[$x];
+                $data[$x]=$temp;
+            }
+        }
+    }
+    return $data;
 }
 ?>
 </pre>
